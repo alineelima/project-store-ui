@@ -1,0 +1,31 @@
+div {}
+
+#header {
+    height: 9%;
+}
+
+#body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70pt;
+    text-align: center;
+    margin: auto;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+#teste {
+    height: 100vh;
+}
+
+#image {
+    position: absolute;
+    z-index: -100;
+}

@@ -6,17 +6,17 @@ import { SharedModule } from '../shared/shared.module';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
- declarations: [
-  HeaderComponent,
-],
- imports: [
-   CommonModule,
-   RouterModule,
-   SharedModule
- ],
- exports: [
-   HeaderComponent,
- ],
- providers: []
+  declarations: [
+    HeaderComponent,
+  ],
+  imports: [
+    CommonModule,
+    RouterModule,
+    SharedModule
+  ],
+  exports: [
+    HeaderComponent,
+  ],
+  providers: []
 })
 export class CoreModule { }
